@@ -127,7 +127,7 @@ Cette commande génère une clé qui est ensuite stockée dans la variable `APP_
 php artisan serve
 ```
 
-Vous devriez voir la page par défaut de Laravel en ouvrant l'url indiquée (http://127.0.0.1:8000 si tout se passe bien).
+Vous devriez voir la page par défaut de Laravel en ouvrant l'url indiquée (http://127.0.0.1:8001 si tout se passe bien).
 
 🎉 Bravo, vous l'avez fait, vous avez une application Laravel qui tourne sous Docker !
 
