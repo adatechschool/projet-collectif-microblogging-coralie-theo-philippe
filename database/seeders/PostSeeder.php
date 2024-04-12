@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use \App\Models\Post;
 
 class PostSeeder extends Seeder
 {
@@ -13,6 +14,6 @@ class PostSeeder extends Seeder
     public function run(): void
     {
         //creation 10 Posts Factices pour test
-        \App\Models\Post::factory(10)->create();
+        Post::factory(10)->create();
     }
 }
